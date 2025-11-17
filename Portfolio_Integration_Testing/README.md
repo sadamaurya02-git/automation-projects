@@ -1,4 +1,6 @@
-### 1. Project Overview
+### PIT: Porfolio Integration Testing
+
+**1. Project Overview**
 
 A brief summary of the automation framework:
 
@@ -10,7 +12,7 @@ A brief summary of the automation framework:
 
  - CI/CD ready with Jenkins and Bitbucket
 
-### 2. Features
+**2. Features**
 
 - Modular, reusable test components
 
@@ -26,7 +28,7 @@ A brief summary of the automation framework:
 
 - Custom library expansion in Java
 
-### 3. Architecture
+**3. Architecture**
 
 Explains the high-level structure:
 
@@ -43,7 +45,7 @@ Explains the high-level structure:
  - Reporting module
 
 
-### 4. Tools & Technologies
+**4. Tools & Technologies**
 
 - Selenium WebDriver
 
@@ -59,7 +61,7 @@ Explains the high-level structure:
 
 - Bitbucket (Version control)
 
-### 5. Setup Instructions
+**5. Setup Instructions**
 
 Steps for users to set up the framework:
 
@@ -73,7 +75,7 @@ Steps for users to set up the framework:
 
  - Configure Jenkins job (optional)
 
-### 6. How to Run Tests
+**6. How to Run Tests**
 
 Explains all execution modes:
 
@@ -85,13 +87,13 @@ Explains all execution modes:
 
  - Remote Execution
 
-### 7. Test Data Handling
+**7. Test Data Handling**
 
  - Excel/CSV-based data input
 
  - No script changes needed when data changes
 
-### 8. Reporting
+**8. Reporting**
 
  - Includes screenshots of failed test cases in the Extent Report:
 
@@ -99,7 +101,7 @@ Explains all execution modes:
 
  - Logs
 
-### 9. Challenges Faced
+**9. Challenges Faced**
 
  - High execution time
 
@@ -109,7 +111,7 @@ Explains all execution modes:
 
  - Troubleshooting multi-step workflows
 
-### 10. Future Enhancements
+**10. Future Enhancements**
 
 - Integrate Allure Report
 
