@@ -1,4 +1,4 @@
-### PIT: Porfolio Integration Testing
+### PIT: Integration Testing
 
 **1. Project Overview**
 
