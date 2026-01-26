@@ -1,4 +1,4 @@
-### PIT: Integration Testing
+### Integration Testing
 
 **1. Project Overview**
 
