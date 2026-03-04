@@ -7,7 +7,8 @@
     "test:chromium": "npx playwright test --project=chromium && npx allure serve allure-results",
     "test:firefox": "npx playwright test --project=firefox && npx allure serve allure-results",
     "test:webkit": "npx playwright test --project=webkit && npx allure serve allure-results",
-    "test:chrome": "npx playwright test --project=\"Google Chrome\" && npx allure serve allure-results"
+    "test:chrome": "npx playwright test --project=\"Google Chrome\" && npx allure serve allure-results",
+    "test" : "playwright test"
   },
   "keywords": [],
   "author": "",
