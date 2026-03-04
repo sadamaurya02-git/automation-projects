@@ -1,0 +1,20 @@
+import {test, expect} from '@playwright/test';
+import { HomePage } from '../src/pages/HomePage';
+import { Login } from '../src/pages/Login';
+import errorMessages from '../test-data/qa/errorMessages.json';
+
+test('Login_Failure_ErrorMessage_Validation',async({page}) =>{
+
+    const homePage = new HomePage(page);
+    await homePage.goToURL();
+    await homePage.clickLoginButton();
+    
+    const loginPage = new Login(page);
+    await loginPage.enterUsernameTextbox(`${process.env.EMAIL_ID}`);
+    //await loginPage.enterPasswordTextbox(`${process.env.PASSWORD}`);
+    await loginPage.enterPasswordTextbox(`TestABC_1234`);
+    await loginPage.clickSignInButton();
+    await expect(page.locator('form')).toContainText(errorMessages.login.InvalidLoginCreds);
+    //await expect(page.getByText(errorMessages.login.InvalidLoginCreds)).toBeVisible();
+
+});

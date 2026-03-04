@@ -1,0 +1,210 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Iqarat" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9]: Iqarat
+        - navigation [ref=e10]:
+          - link "Properties" [ref=e11] [cursor=pointer]:
+            - /url: /properties
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects
+          - link "Agents" [ref=e13] [cursor=pointer]:
+            - /url: /agents
+        - generic [ref=e14]:
+          - button "Settings" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+            - generic [ref=e20]: Settings
+            - img [ref=e21]
+          - button "Notifications" [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+          - button "Toggle theme" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "My Account" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: My Account
+            - img [ref=e37]
+      - generic:
+        - link "Iqarat":
+          - /url: /
+          - generic: Iqarat
+        - button "Open menu":
+          - img
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e43]: Iqarat
+        - button "Close menu" [ref=e44] [cursor=pointer]:
+          - img [ref=e45]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Navigation
+            - link "Properties" [ref=e52] [cursor=pointer]:
+              - /url: /properties
+            - link "Projects" [ref=e53] [cursor=pointer]:
+              - /url: /projects
+            - link "Agents" [ref=e54] [cursor=pointer]:
+              - /url: /agents
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Account
+            - generic [ref=e57]:
+              - paragraph [ref=e58]: Iqarat Lister1
+              - paragraph [ref=e59]: iqarat-lister1@yopmail.com
+            - link "My Account" [ref=e60] [cursor=pointer]:
+              - /url: /my-account
+              - img [ref=e61]
+              - generic [ref=e64]: My Account
+            - link "Leads" [ref=e65] [cursor=pointer]:
+              - /url: /my-account/leads
+              - img [ref=e66]
+              - generic [ref=e68]: Leads
+            - link "Favorites" [ref=e69] [cursor=pointer]:
+              - /url: /my-account/favorites
+              - img [ref=e70]
+              - generic [ref=e72]: Favorites
+            - link "Saved Searches" [ref=e73] [cursor=pointer]:
+              - /url: /my-account/saved-searches
+              - img [ref=e74]
+              - generic [ref=e77]: Saved Searches
+            - link "Account Settings" [ref=e78] [cursor=pointer]:
+              - /url: /my-account/account-settings
+              - img [ref=e79]
+              - generic [ref=e82]: Account Settings
+            - button "Sign Out" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e87]: Sign Out
+        - generic [ref=e88]:
+          - button "Settings" [ref=e89] [cursor=pointer]:
+            - paragraph [ref=e90]: Settings
+            - img [ref=e91]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - paragraph [ref=e95]: Language
+              - generic [ref=e96]:
+                - button "🇬🇧 EN" [ref=e97] [cursor=pointer]
+                - button "🇮🇶 AR" [ref=e98] [cursor=pointer]
+                - button "🇹🇯 KU" [ref=e99] [cursor=pointer]
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - paragraph [ref=e102]: Currency
+                - generic [ref=e103]:
+                  - button "Iraqi Dinar (IQD)" [ref=e104] [cursor=pointer]
+                  - button "US Dollar (USD)" [ref=e105] [cursor=pointer]
+                  - button "Euro (EUR)" [ref=e106] [cursor=pointer]
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: Area Unit
+                - generic [ref=e109]:
+                  - button "Square Feet (sqft)" [ref=e110] [cursor=pointer]
+                  - button "Square Meters (m²)" [ref=e111] [cursor=pointer]
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: Theme
+              - button "Light Mode" [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]: Light Mode
+                - img [ref=e116]
+    - main [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - heading "List Your Property" [level=1] [ref=e124]
+            - paragraph [ref=e125]: Fill in the details to create your listing
+          - button "Back to My Account" [ref=e126] [cursor=pointer]:
+            - img [ref=e127]
+            - text: Back to My Account
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - img [ref=e136]
+            - generic [ref=e138]: Basics
+          - generic [ref=e139]:
+            - img [ref=e141]
+            - generic [ref=e143]: Location
+          - generic [ref=e144]:
+            - img [ref=e146]
+            - generic [ref=e148]: Size
+          - generic [ref=e149]:
+            - img [ref=e151]
+            - generic [ref=e153]: Details
+          - generic [ref=e154]:
+            - img [ref=e156]
+            - generic [ref=e158]: Features
+          - generic [ref=e159]:
+            - img [ref=e161]
+            - generic [ref=e163]: Legal
+          - generic [ref=e164]:
+            - generic [ref=e165]: "7"
+            - generic [ref=e166]: Photos
+          - generic [ref=e167]:
+            - generic [ref=e168]: "8"
+            - generic [ref=e169]: Description
+          - generic [ref=e170]:
+            - generic [ref=e171]: "9"
+            - generic [ref=e172]: Review
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - heading "Property Photos" [level=2] [ref=e176]
+            - paragraph [ref=e177]: Add high-quality photos to attract more buyers
+          - generic [ref=e178]:
+            - heading "📸 Photo Tips" [level=3] [ref=e179]
+            - list [ref=e180]:
+              - listitem [ref=e181]: • Take photos during daytime for natural lighting
+              - listitem [ref=e182]: • Include photos of all rooms and key features
+              - listitem [ref=e183]: • Ensure photos are clear and not blurry
+              - listitem [ref=e184]: • At least 3 photos are required to submit
+              - listitem [ref=e185]: • Upload up to 20 photos total
+              - listitem [ref=e186]: • The first photo becomes the cover image
+          - generic [ref=e187]:
+            - generic [ref=e188]: Property Photos (up to 20)*
+            - generic [ref=e189] [cursor=pointer]:
+              - img [ref=e190]
+              - paragraph [ref=e193]: Click to upload or drag and drop
+              - paragraph [ref=e194]: PNG, JPG, WebP up to 5MB (2/20)
+            - paragraph [ref=e195]:
+              - img [ref=e196]
+              - text: Drag photos to reorder. First photo is the cover.
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - img "Upload 1"
+                - generic [ref=e205]:
+                  - img [ref=e206]
+                  - text: Cover
+                - button "Remove" [ref=e209] [cursor=pointer]:
+                  - img [ref=e210]
+                - img [ref=e214]
+              - generic [ref=e221]:
+                - img "Upload 2"
+                - generic [ref=e222]:
+                  - button "Cover" [ref=e223] [cursor=pointer]:
+                    - img [ref=e224]
+                    - text: Cover
+                  - button "Remove" [ref=e226] [cursor=pointer]:
+                    - img [ref=e227]
+                - img [ref=e231]
+            - paragraph [ref=e238]:
+              - generic [ref=e239]: ⚠
+              - generic [ref=e240]: At least 3 photos are required
+        - generic [ref=e241]:
+          - button "Save Draft" [ref=e242] [cursor=pointer]:
+            - img [ref=e243]
+            - generic [ref=e247]: Save Draft
+          - generic [ref=e248]:
+            - button "Back" [ref=e249] [cursor=pointer]:
+              - img [ref=e250]
+              - generic [ref=e252]: Back
+            - button "Next" [active] [ref=e253] [cursor=pointer]:
+              - generic [ref=e254]: Next
+              - img [ref=e255]
+    - contentinfo [ref=e257]:
+      - generic [ref=e259]:
+        - paragraph [ref=e260]: © 2026 Iqarat. All rights reserved.
+        - navigation [ref=e261]:
+          - link "Privacy" [ref=e262] [cursor=pointer]:
+            - /url: /terms#privacy
+          - link "Terms" [ref=e263] [cursor=pointer]:
+            - /url: /terms
+          - link "Contact" [ref=e264] [cursor=pointer]:
+            - /url: /contact
+```

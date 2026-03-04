@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6176","Login_Failure_ErrorMessage_Validation","chromium","2026-02-26","passed","2026-02-26","","02_login_failure.spec.ts","",""
+"","121169","test","chromium","2026-02-26","broken","2026-02-26","","test-1.spec.ts","",""
+"","5295","Login_Failure_ErrorMessage_Validation","Google Chrome","2026-02-26","passed","2026-02-26","","02_login_failure.spec.ts","",""
+"","60330","List your Property","Google Chrome","2026-02-26","passed","2026-02-26","","01_list_your_property.spec.ts","",""
+"","66948","List your Property","chromium","2026-02-26","failed","2026-02-26","","01_list_your_property.spec.ts","",""

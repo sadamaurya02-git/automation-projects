@@ -1,0 +1,319 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Iqarat" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9]: Iqarat
+        - navigation [ref=e10]:
+          - link "Properties" [ref=e11] [cursor=pointer]:
+            - /url: /properties
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects
+          - link "Agents" [ref=e13] [cursor=pointer]:
+            - /url: /agents
+        - generic [ref=e14]:
+          - button "Settings" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+            - generic [ref=e20]: Settings
+            - img [ref=e21]
+          - button "Notifications" [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+          - button "Toggle theme" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - button "My Account" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e36]: My Account
+            - img [ref=e37]
+      - generic:
+        - link "Iqarat":
+          - /url: /
+          - generic: Iqarat
+        - button "Open menu":
+          - img
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e43]: Iqarat
+        - button "Close menu" [ref=e44] [cursor=pointer]:
+          - img [ref=e45]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Navigation
+            - link "Properties" [ref=e52] [cursor=pointer]:
+              - /url: /properties
+            - link "Projects" [ref=e53] [cursor=pointer]:
+              - /url: /projects
+            - link "Agents" [ref=e54] [cursor=pointer]:
+              - /url: /agents
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Account
+            - generic [ref=e57]:
+              - paragraph [ref=e58]: Iqarat Lister1
+              - paragraph [ref=e59]: iqarat-lister1@yopmail.com
+            - link "My Account" [ref=e60] [cursor=pointer]:
+              - /url: /my-account
+              - img [ref=e61]
+              - generic [ref=e64]: My Account
+            - link "Leads" [ref=e65] [cursor=pointer]:
+              - /url: /my-account/leads
+              - img [ref=e66]
+              - generic [ref=e68]: Leads
+            - link "Favorites" [ref=e69] [cursor=pointer]:
+              - /url: /my-account/favorites
+              - img [ref=e70]
+              - generic [ref=e72]: Favorites
+            - link "Saved Searches" [ref=e73] [cursor=pointer]:
+              - /url: /my-account/saved-searches
+              - img [ref=e74]
+              - generic [ref=e77]: Saved Searches
+            - link "Account Settings" [ref=e78] [cursor=pointer]:
+              - /url: /my-account/account-settings
+              - img [ref=e79]
+              - generic [ref=e82]: Account Settings
+            - button "Sign Out" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e87]: Sign Out
+        - generic [ref=e88]:
+          - button "Settings" [ref=e89] [cursor=pointer]:
+            - paragraph [ref=e90]: Settings
+            - img [ref=e91]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - paragraph [ref=e95]: Language
+              - generic [ref=e96]:
+                - button "🇬🇧 EN" [ref=e97] [cursor=pointer]
+                - button "🇮🇶 AR" [ref=e98] [cursor=pointer]
+                - button "🇹🇯 KU" [ref=e99] [cursor=pointer]
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - paragraph [ref=e102]: Currency
+                - generic [ref=e103]:
+                  - button "Iraqi Dinar (IQD)" [ref=e104] [cursor=pointer]
+                  - button "US Dollar (USD)" [ref=e105] [cursor=pointer]
+                  - button "Euro (EUR)" [ref=e106] [cursor=pointer]
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: Area Unit
+                - generic [ref=e109]:
+                  - button "Square Feet (sqft)" [ref=e110] [cursor=pointer]
+                  - button "Square Meters (m²)" [ref=e111] [cursor=pointer]
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: Theme
+              - button "Light Mode" [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]: Light Mode
+                - img [ref=e116]
+    - main [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - heading "List Your Property" [level=1] [ref=e124]
+            - paragraph [ref=e125]: Fill in the details to create your listing
+          - button "Back to My Account" [ref=e126] [cursor=pointer]:
+            - img [ref=e127]
+            - text: Back to My Account
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - img [ref=e136]
+            - generic [ref=e138]: Basics
+          - generic [ref=e139]:
+            - img [ref=e141]
+            - generic [ref=e143]: Location
+          - generic [ref=e144]:
+            - img [ref=e146]
+            - generic [ref=e148]: Size
+          - generic [ref=e149]:
+            - img [ref=e151]
+            - generic [ref=e153]: Details
+          - generic [ref=e154]:
+            - img [ref=e156]
+            - generic [ref=e158]: Features
+          - generic [ref=e159]:
+            - img [ref=e161]
+            - generic [ref=e163]: Legal
+          - generic [ref=e164]:
+            - img [ref=e166]
+            - generic [ref=e168]: Photos
+          - generic [ref=e169]:
+            - img [ref=e171]
+            - generic [ref=e173]: Description
+          - generic [ref=e174]:
+            - generic [ref=e175]: "9"
+            - generic [ref=e176]: Review
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - heading "Review & Submit" [level=2] [ref=e180]
+            - paragraph [ref=e181]: Review your listing before submitting
+          - generic [ref=e183]:
+            - img [ref=e184]
+            - heading "Analyzing Listing Quality..." [level=3] [ref=e187]
+            - paragraph [ref=e188]: Our AI is reviewing your listing to provide quality insights
+          - generic [ref=e192]:
+            - img [ref=e193]
+            - generic [ref=e195]:
+              - paragraph [ref=e196]: No market insights available
+              - paragraph [ref=e197]: Not enough similar properties in this area to generate suggestions
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - heading "Photos (3)" [level=3] [ref=e200]
+              - button "Edit Photos" [ref=e201] [cursor=pointer]:
+                - img [ref=e202]
+                - text: Edit Photos
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - img "Photo 1" [ref=e207]
+                - generic [ref=e208]: Cover
+              - img "Photo 2" [ref=e210]
+              - img "Photo 3" [ref=e212]
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - heading "Property Basics" [level=3] [ref=e215]
+              - button "Edit" [ref=e216] [cursor=pointer]:
+                - img [ref=e217]
+                - text: Edit
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - term [ref=e222]: Transaction
+                - definition [ref=e223]: sale
+              - generic [ref=e224]:
+                - term [ref=e225]: Category
+                - definition [ref=e226]: residential
+              - generic [ref=e227]:
+                - term [ref=e228]: Type
+                - definition [ref=e229]: apartment
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - heading "Location" [level=3] [ref=e232]
+              - button "Edit" [ref=e233] [cursor=pointer]:
+                - img [ref=e234]
+                - text: Edit
+            - generic [ref=e237]:
+              - generic [ref=e238]:
+                - term [ref=e239]: Governorate
+                - definition [ref=e240]: basra
+              - generic [ref=e241]:
+                - term [ref=e242]: District
+                - definition [ref=e243]: Abu Al-Khaseeb
+              - generic [ref=e244]:
+                - term [ref=e245]: City
+                - definition [ref=e246]: Basra
+              - generic [ref=e247]:
+                - term [ref=e248]: Neighborhood Number
+                - definition [ref=e249]: "305"
+              - generic [ref=e250]:
+                - term [ref=e251]: Street
+                - definition [ref=e252]: Zukak
+              - generic [ref=e253]:
+                - term [ref=e254]: House/Building Number
+                - definition [ref=e255]: Building 12
+              - generic [ref=e256]:
+                - term [ref=e257]: Postal Code
+                - definition [ref=e258]: "61006"
+              - generic [ref=e259]:
+                - term [ref=e260]: In Compound
+                - definition [ref=e261]: "No"
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - heading "Size & Layout" [level=3] [ref=e264]
+              - button "Edit" [ref=e265] [cursor=pointer]:
+                - img [ref=e266]
+                - text: Edit
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - term [ref=e271]: Built-up Area
+                - definition [ref=e272]: 1100 sqft
+              - generic [ref=e273]:
+                - term [ref=e274]: Bedrooms
+                - definition [ref=e275]: "2"
+              - generic [ref=e276]:
+                - term [ref=e277]: Bathrooms
+                - definition [ref=e278]: "2"
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - heading "Title" [level=3] [ref=e281]
+              - button "Edit" [ref=e282] [cursor=pointer]:
+                - img [ref=e283]
+                - text: Edit
+            - heading "2 Bedroom Apartment for Sale in Abu Al-Khaseeb" [level=4] [ref=e286]
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - heading "Description (English)" [level=3] [ref=e289]
+              - button "Edit" [ref=e290] [cursor=pointer]:
+                - img [ref=e291]
+                - text: Edit
+            - generic [ref=e294]:
+              - paragraph [ref=e295]: This apartment for sale in Abu Al-Khaseeb, Basra is a good option for families or anyone looking for a practical home. It's got 2 bedrooms and 2 bathrooms, giving you both space and comfort.
+              - paragraph [ref=e296]:
+                - strong [ref=e297]: "Key Features:"
+              - list [ref=e298]:
+                - listitem [ref=e299]: Fully furnished, ready to move in
+                - listitem [ref=e300]: Spacious 1100 sqm built-up area
+                - listitem [ref=e301]: Balcony with sea, mountain, and city views
+                - listitem [ref=e302]: Smart home features and CCTV for security
+                - listitem [ref=e303]: Gym and covered parking included
+                - listitem [ref=e304]: Solar setup reduces electricity bills
+              - paragraph [ref=e305]: The apartment is located near schools and hospitals, making it a convenient spot for families. Priced at 1,500,000 IQD, it's a fair deal in a nice neighborhood.
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - heading "Description (Arabic)" [level=3] [ref=e308]
+              - button "Edit" [ref=e309] [cursor=pointer]:
+                - img [ref=e310]
+                - text: Edit
+            - generic [ref=e313]:
+              - paragraph [ref=e314]: هاي الشقة للبيع بأبو الخصيب، البصرة مناسبة للعائلات أو أي شخص يدور على بيت عملي. تحتوي على غرفتين نوم وحمامين، توفر مساحة وراحة.
+              - paragraph [ref=e315]:
+                - strong [ref=e316]: "المميزات الرئيسية:"
+              - list [ref=e317]:
+                - listitem [ref=e318]: مفروشة بالكامل وجاهزة للسكن
+                - listitem [ref=e319]: مساحة بناء 1100 متر مربع
+                - listitem [ref=e320]: بالكونة تطل على البحر، الجبال، والمدينة
+                - listitem [ref=e321]: نظام ذكي وكاميرات مراقبة للأمان
+                - listitem [ref=e322]: جيم وموقف سيارات مغطى
+                - listitem [ref=e323]: نظام شمسي لتقليل فواتير الكهرباء
+              - paragraph [ref=e324]: الشقة قريبة من المدارس والمستشفيات، مما يجعلها موقع مناسب للعائلات. سعرها 1,500,000 دينار عراقي، صفقة جيدة في حي لطيف.
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - heading "Description (Kurdish)" [level=3] [ref=e327]
+              - button "Edit" [ref=e328] [cursor=pointer]:
+                - img [ref=e329]
+                - text: Edit
+            - generic [ref=e332]:
+              - paragraph [ref=e333]: ئەم ئاپارتمانە لە فڕۆشتنە بە شێوەیەکی گونجاو لە عێراق، بەسەرە، بەرزە. بۆ خێزانەکان یان هەر کەسێک کە پێویستە بە خانەیەکی کاریگەر. دوو ژوور و دوو توالت هەیە، شوێن و ئارامیدانی دەرەوە.
+              - paragraph [ref=e334]:
+                - strong [ref=e335]: "تایبەتمەندیەکان:"
+              - list [ref=e336]:
+                - listitem [ref=e337]: پڕ بە فرنیچرە و ئامادەی بەرگرتنە
+                - listitem [ref=e338]: قەبارەی 1100 مەتری موکەبە
+                - listitem [ref=e339]: بالکۆنی بە دیمەنەکانی دەریا، شاخ و شارە
+                - listitem [ref=e340]: سیستەمی زانستی و بە خێراکەی بەرپرس و پارکینگەوە
+                - listitem [ref=e341]: جیم و پارکینگەی نەسەرە
+                - listitem [ref=e342]: سیستەمی خۆرەیی بۆ کەمکردنەوەی فاکەری کارەبا
+              - paragraph [ref=e343]: ئاپارتمانی نزیکە لە قوتابخانە و نەخۆشخانەکانە، بۆ خێزانەکان شوێنێکی گونجاوە. بە نرخەکی 1,500,000 دیناری عێراقی، بەهاێکی باشە لە ناوچەیەکی خۆشەویست.
+          - generic [ref=e345] [cursor=pointer]:
+            - img [ref=e347]
+            - generic [ref=e349]:
+              - text: I agree to the terms and conditions
+              - paragraph [ref=e350]: By submitting, you confirm that all information is accurate and you agree to our listing policies.
+        - generic [ref=e351]:
+          - button "Save Draft" [ref=e352] [cursor=pointer]:
+            - img [ref=e353]
+            - generic [ref=e357]: Save Draft
+          - generic [ref=e358]:
+            - button "Back" [ref=e359] [cursor=pointer]:
+              - img [ref=e360]
+              - generic [ref=e362]: Back
+            - button "Submit for Review" [active] [ref=e363] [cursor=pointer]
+    - contentinfo [ref=e364]:
+      - generic [ref=e366]:
+        - paragraph [ref=e367]: © 2026 Iqarat. All rights reserved.
+        - navigation [ref=e368]:
+          - link "Privacy" [ref=e369] [cursor=pointer]:
+            - /url: /terms#privacy
+          - link "Terms" [ref=e370] [cursor=pointer]:
+            - /url: /terms
+          - link "Contact" [ref=e371] [cursor=pointer]:
+            - /url: /contact
+```

@@ -1,0 +1,25 @@
+{
+  "name": "playwright-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chromium": "npx playwright test --project=chromium && npx allure serve allure-results",
+    "test:firefox": "npx playwright test --project=firefox && npx allure serve allure-results",
+    "test:webkit": "npx playwright test --project=webkit && npx allure serve allure-results",
+    "test:chrome": "npx playwright test --project=\"Google Chrome\" && npx allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.9",
+    "allure-commandline": "^2.37.0",
+    "allure-playwright": "^3.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

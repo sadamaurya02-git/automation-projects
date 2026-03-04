@@ -1,0 +1,126 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Iqarat" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9]: Iqarat
+        - navigation [ref=e10]:
+          - link "Properties" [ref=e11] [cursor=pointer]:
+            - /url: /properties
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects
+          - link "Agents" [ref=e13] [cursor=pointer]:
+            - /url: /agents
+        - generic [ref=e14]:
+          - button "Settings" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+            - generic [ref=e20]: Settings
+            - img [ref=e21]
+          - button "Toggle theme" [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+          - link "Register / Login" [ref=e26] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e27]: Register / Login
+      - generic:
+        - link "Iqarat":
+          - /url: /
+          - generic: Iqarat
+        - button "Open menu":
+          - img
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e32]: Iqarat
+        - button "Close menu" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - paragraph [ref=e40]: Navigation
+            - link "Properties" [ref=e41] [cursor=pointer]:
+              - /url: /properties
+            - link "Projects" [ref=e42] [cursor=pointer]:
+              - /url: /projects
+            - link "Agents" [ref=e43] [cursor=pointer]:
+              - /url: /agents
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: Account
+            - link "Register / Login" [ref=e46] [cursor=pointer]:
+              - /url: /login
+              - img [ref=e47]
+              - generic [ref=e50]: Register / Login
+        - generic [ref=e51]:
+          - button "Settings" [ref=e52] [cursor=pointer]:
+            - paragraph [ref=e53]: Settings
+            - img [ref=e54]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - paragraph [ref=e58]: Language
+              - generic [ref=e59]:
+                - button "🇬🇧 EN" [ref=e60] [cursor=pointer]
+                - button "🇮🇶 AR" [ref=e61] [cursor=pointer]
+                - button "🇹🇯 KU" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - paragraph [ref=e65]: Currency
+                - generic [ref=e66]:
+                  - button "Iraqi Dinar (IQD)" [ref=e67] [cursor=pointer]
+                  - button "US Dollar (USD)" [ref=e68] [cursor=pointer]
+                  - button "Euro (EUR)" [ref=e69] [cursor=pointer]
+              - generic [ref=e70]:
+                - paragraph [ref=e71]: Area Unit
+                - generic [ref=e72]:
+                  - button "Square Feet (sqft)" [ref=e73] [cursor=pointer]
+                  - button "Square Meters (m²)" [ref=e74] [cursor=pointer]
+            - generic [ref=e75]:
+              - paragraph [ref=e76]: Theme
+              - button "Light Mode" [ref=e77] [cursor=pointer]:
+                - generic [ref=e78]: Light Mode
+                - img [ref=e79]
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - heading "Welcome Back" [level=1] [ref=e85]
+        - paragraph [ref=e86]: Sign in to your account
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - img [ref=e92]
+              - text: Email Address
+            - textbox "Enter your email address" [ref=e95]
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - img [ref=e98]
+              - text: Password
+            - generic [ref=e101]:
+              - textbox "••••••••" [ref=e102]
+              - button [ref=e103] [cursor=pointer]:
+                - img [ref=e104]
+          - generic [ref=e107]:
+            - generic [ref=e108] [cursor=pointer]:
+              - checkbox "Remember me" [ref=e109]
+              - generic [ref=e110]: Remember me
+            - link "Forgot password?" [ref=e111] [cursor=pointer]:
+              - /url: /forgot-password
+          - button "Sign In" [ref=e112] [cursor=pointer]
+        - generic [ref=e117]: New to Iqarat?
+        - generic [ref=e118]:
+          - link "Register as Individual" [ref=e119] [cursor=pointer]:
+            - /url: /register?type=individual
+          - link "Register as Agent" [ref=e120] [cursor=pointer]:
+            - /url: /register?type=agent
+    - contentinfo [ref=e121]:
+      - generic [ref=e123]:
+        - paragraph [ref=e124]: © 2026 Iqarat. All rights reserved.
+        - navigation [ref=e125]:
+          - link "Privacy" [ref=e126] [cursor=pointer]:
+            - /url: /terms#privacy
+          - link "Terms" [ref=e127] [cursor=pointer]:
+            - /url: /terms
+          - link "Contact" [ref=e128] [cursor=pointer]:
+            - /url: /contact
+```

@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="63.53168799999962">
+<testsuite name="01_list_your_property.spec.ts" timestamp="2026-02-26T08:52:39.096Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="60.457" errors="0">
+<testcase name="List your Property" classname="01_list_your_property.spec.ts" time="60.457">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\01_list_your_property-List-your-Property-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

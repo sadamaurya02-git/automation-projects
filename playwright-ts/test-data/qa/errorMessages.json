@@ -1,0 +1,13 @@
+{
+    "login" : {
+        "InvalidEmail" : "Email is required",
+        "InvalidPassword" : "Password is required",
+        "InvalidLoginCreds" : "Invalid login credentials",
+        "FetchCreds_Failure" : "Failed to fetch"
+    },
+    "basics" : {
+        "EM_1" : "JavaScript by Testers Talk",
+        "EM_2" : "API Testing by Testers Talk",
+        "EM_3" : "UI Testing by Testers Talk"
+    }
+}

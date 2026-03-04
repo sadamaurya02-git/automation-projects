@@ -1,0 +1,47 @@
+{"version":8,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.57.0","options":{},"platform":"win32","wallTime":1772102396508,"monotonicTime":4065870.771,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","stepId":"hook@1","startTime":4065903.362,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@26","stepId":"fixture@26","parentId":"hook@1","startTime":4065917.603,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@27","stepId":"pw:api@27","parentId":"fixture@26","startTime":4065922.332,"class":"Test","method":"pw:api","title":"Launch browser","params":{"handleSIGINT":"false","tracesDir":"C:\\my folder\\Personal\\Automation\\playwright-ts\\test-results\\.playwright-artifacts-4\\traces","headless":"false","channel":"chrome","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined","timeout":"180000"},"stack":[]}
+{"type":"after","callId":"pw:api@27","endTime":4066420.223,"annotations":[]}
+{"type":"after","callId":"fixture@26","endTime":4066420.402,"annotations":[]}
+{"type":"before","callId":"fixture@30","stepId":"fixture@30","parentId":"hook@1","startTime":4066422.125,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@31","stepId":"pw:api@31","parentId":"fixture@30","startTime":4066425.077,"class":"Test","method":"pw:api","title":"Create context","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","deviceScaleFactor":"1","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36","viewport":"Object","serviceWorkers":"allow","selectorEngines":"[]","testIdAttributeName":"data-tab-item","noDefaultViewport":"false","extraHTTPHeaders":"undefined","storageState":"undefined","reducedMotion":"undefined","forcedColors":"undefined","contrast":"undefined","clientCertificates":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@31","endTime":4066440.917,"annotations":[]}
+{"type":"after","callId":"fixture@30","endTime":4066445.687,"annotations":[]}
+{"type":"before","callId":"fixture@32","stepId":"fixture@32","parentId":"hook@1","startTime":4066446.126,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@33","stepId":"pw:api@33","parentId":"fixture@32","startTime":4066447.986,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@33","endTime":4066935.08,"annotations":[]}
+{"type":"after","callId":"fixture@32","endTime":4066935.163,"annotations":[]}
+{"type":"after","callId":"hook@1","endTime":4066935.217,"annotations":[]}
+{"type":"before","callId":"pw:api@34","stepId":"pw:api@34","startTime":4066939.416,"class":"Test","method":"pw:api","title":"Navigate to \"/\"","params":{"url":"https://iqarat-3jyrajq2z-capital-wave-fz-e7ce502b.vercel.app/","waitUntil":"load","timeout":"0"},"stack":[{"file":"C:\\my folder\\Personal\\Automation\\playwright-ts\\src\\pages\\HomePage.ts","line":20,"column":25,"function":"HomePage.goToURL"}]}
+{"type":"after","callId":"pw:api@34","endTime":4068407.571,"annotations":[]}
+{"type":"before","callId":"pw:api@35","stepId":"pw:api@35","startTime":4068415.577,"class":"Test","method":"pw:api","title":"Click getByRole('banner').getByRole('link', { name: 'Register / Login' })","params":{"selector":"internal:role=banner >> internal:role=link[name=\"Register / Login\"i]","strict":"true","timeout":"0"},"stack":[{"file":"C:\\my folder\\Personal\\Automation\\playwright-ts\\src\\pages\\HomePage.ts","line":24,"column":33,"function":"HomePage.clickLoginButton"}]}
+{"type":"after","callId":"pw:api@35","endTime":4068618.701,"annotations":[]}
+{"type":"before","callId":"pw:api@36","stepId":"pw:api@36","startTime":4068624.079,"class":"Test","method":"pw:api","title":"Fill \"iqarat-lister1@yopmail.com\" getByRole('textbox', { name: 'Enter your email address' })","params":{"selector":"internal:role=textbox[name=\"Enter your email address\"i]","value":"iqarat-lister1@yopmail.com","strict":"true","timeout":"0"},"stack":[{"file":"C:\\my folder\\Personal\\Automation\\playwright-ts\\src\\pages\\Login.ts","line":23,"column":36,"function":"Login.enterUsernameTextbox"}]}
+{"type":"after","callId":"pw:api@36","endTime":4070024.992,"annotations":[]}
+{"type":"before","callId":"pw:api@37","stepId":"pw:api@37","startTime":4070027.702,"class":"Test","method":"pw:api","title":"Fill \"TestABC_1234\" getByRole('textbox', { name: '••••••••' })","params":{"selector":"internal:role=textbox[name=\"••••••••\"i]","value":"TestABC_1234","strict":"true","timeout":"0"},"stack":[{"file":"C:\\my folder\\Personal\\Automation\\playwright-ts\\src\\pages\\Login.ts","line":27,"column":36,"function":"Login.enterPasswordTextbox"}]}
+{"type":"after","callId":"pw:api@37","endTime":4070070.968,"annotations":[]}
+{"type":"before","callId":"pw:api@38","stepId":"pw:api@38","startTime":4070072.828,"class":"Test","method":"pw:api","title":"Click getByRole('button', { name: 'Sign In' })","params":{"selector":"internal:role=button[name=\"Sign In\"i]","strict":"true","timeout":"0"},"stack":[{"file":"C:\\my folder\\Personal\\Automation\\playwright-ts\\src\\pages\\Login.ts","line":31,"column":33,"function":"Login.clickSignInButton"}]}
+{"type":"after","callId":"pw:api@38","endTime":4070153.292,"annotations":[]}
+{"type":"before","callId":"expect@39","stepId":"expect@39","startTime":4070162.227,"class":"Test","method":"expect","title":"Expect \"toContainText\"","params":{"expected":"Invalid login credentials"},"stack":[{"file":"C:\\my folder\\Personal\\Automation\\playwright-ts\\tests\\02_login_failure.spec.ts","line":17,"column":40}]}
+{"type":"after","callId":"expect@39","endTime":4074128.693,"annotations":[]}
+{"type":"before","callId":"hook@40","stepId":"hook@40","startTime":4074129.524,"class":"Test","method":"hook","title":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@41","stepId":"fixture@41","parentId":"hook@40","startTime":4074131.28,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@41","endTime":4074131.537,"annotations":[]}
+{"type":"before","callId":"fixture@42","stepId":"fixture@42","parentId":"hook@40","startTime":4074132.165,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@43","stepId":"pw:api@43","parentId":"fixture@42","startTime":4074819.069,"class":"Test","method":"pw:api","title":"Close context","params":{"reason":"Test ended."},"stack":[]}
+{"type":"after","callId":"pw:api@43","endTime":4074866.255,"annotations":[]}
+{"type":"after","callId":"fixture@42","endTime":4074866.381,"annotations":[]}
+{"type":"before","callId":"fixture@47","stepId":"fixture@47","parentId":"hook@40","startTime":4074868.806,"class":"Test","method":"fixture","title":"Fixture \"testIdAttribute\"","params":{},"stack":[{"file":"project#Google Chrome","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@47","endTime":4074868.865,"annotations":[]}
+{"type":"before","callId":"fixture@53","stepId":"fixture@53","parentId":"hook@40","startTime":4074872.057,"class":"Test","method":"fixture","title":"Fixture \"userAgent\"","params":{},"stack":[{"file":"project#Google Chrome","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@53","endTime":4074872.116,"annotations":[]}
+{"type":"before","callId":"fixture@55","stepId":"fixture@55","parentId":"hook@40","startTime":4074872.61,"class":"Test","method":"fixture","title":"Fixture \"viewport\"","params":{},"stack":[{"file":"project#Google Chrome","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@55","endTime":4074872.649,"annotations":[]}
+{"type":"before","callId":"fixture@62","stepId":"fixture@62","parentId":"hook@40","startTime":4074875.08,"class":"Test","method":"fixture","title":"Fixture \"isMobile\"","params":{},"stack":[{"file":"project#Google Chrome","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@62","endTime":4074875.108,"annotations":[]}
+{"type":"before","callId":"fixture@66","stepId":"fixture@66","parentId":"hook@40","startTime":4074875.924,"class":"Test","method":"fixture","title":"Fixture \"hasTouch\"","params":{},"stack":[{"file":"project#Google Chrome","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@66","endTime":4074875.98,"annotations":[]}
+{"type":"before","callId":"fixture@68","stepId":"fixture@68","parentId":"hook@40","startTime":4074877.365,"class":"Test","method":"fixture","title":"Fixture \"deviceScaleFactor\"","params":{},"stack":[{"file":"project#Google Chrome","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@68","endTime":4074877.418,"annotations":[]}
+{"type":"after","callId":"hook@40","endTime":4074878.691,"annotations":[]}
